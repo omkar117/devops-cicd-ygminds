@@ -24,7 +24,7 @@ pipeline {
                    sh 'docker login -u omkar9 -p ${dockerhubpwd}'
 
 }
-                   sh 'docker push omkar9/devops-integration'
+                   sh 'docker push ankitjagtap/devops-integration'
                 }
             }
         }
